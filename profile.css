@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&family=GFS+Didot&family=Montserrat:wght@400;700&display=swap');
 
+:root {
+  --color-text-flow: #5e554f;
+  --color-bg: #d7d1cf;
+  --color-sidebar: #4b2930;
+  --color-button: #d7d1cf;
+  --color-button-hover: #4b2930;
+  --color-button-text: #4b2930;
+  --color-button-hover-text: #e6e1de;
+  --color-button-border: #9e918e;
+  --color-button-border-hover: #4b2930;
+
+  --font-main: 'Montserrat', sans-serif;
+  --font-title: 'Allison', serif;
+  --font-categorie: 'GFS Didot', serif;
+
+  --color-categorie: #000000;
+  --color-categorie-bg: #b0a19b;
+  --color-fact-bg: #ccc9c7;
+  --color-fact-text: #827974;
+}
 
 html, body {
   margin: 0;
@@ -112,7 +132,7 @@ input[type="radio"] {
   height: 30px;
   line-height: 17px;
   border-radius: 8px;
-  font-size: 60px;
+  font-size: 45px;
   z-index: 10;
   overflow: visible;
   white-space: nowrap;
@@ -197,23 +217,3 @@ fact {
   text-align: justify;
 }
 
-:root {
-  --color-text-flow: #5e554f;
-  --color-bg: #d7d1cf;
-  --color-sidebar: #4b2930;
-  --color-button: #d7d1cf;
-  --color-button-hover: #4b2930;
-  --color-button-text: #4b2930;
-  --color-button-hover-text: #e6e1de;
-  --color-button-border: #9e918e;
-  --color-button-border-hover: #4b2930;
-
-  --font-main: 'Montserrat', sans-serif;
-  --font-title: 'Allison', serif;
-  --font-categorie: 'GFS Didot', serif;
-
-  --color-categorie: #000000;
-  --color-categorie-bg: #b0a19b;
-  --color-fact-bg: #ccc9c7;
-  --color-fact-text: #827974;
-}

@@ -11,8 +11,6 @@
   --color-button-border: #9e918e;
   --color-button-border-hover: #4b2930;
 
-  --font-main: 'Montserrat', sans-serif;
-  --font-title: 'Allison', serif;
   --font-categorie: 'GFS Didot', serif;
 
   --color-categorie: #000000;
@@ -127,7 +125,7 @@ input[type="radio"] {
   right: -50px;
   background: var(--color-sidebar);
   color: #000;
-  font-family: var(--font-title);
+  font-family: 'Allison', serif;
   padding: 0 12px;
   height: 30px;
   line-height: 17px;
@@ -202,7 +200,7 @@ categorie {
 fact {
   display: inline-block;
   font-size: 9px;
-  font-family: var(--font-main);
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;

@@ -28,11 +28,6 @@ body {
   margin: 0 !important;
 }
 
-.scroll-protector {
-  width: max-content;   
-  min-width: 100%;      
-}
-
 
 /* Sidebar / Tabs */
 .profile-sidebar {
@@ -221,7 +216,7 @@ fact {
 
 /* Grundstruktur */
 .profile-wrapper {
-  width: 450px;
+  width: 400px;
   max-width: 450px;
   overflow: auto;
   background: var(--color-bg);

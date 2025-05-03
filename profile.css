@@ -46,9 +46,10 @@ body {
 }
 
 .scroll-protector {
-  width: max-content;  
-  min-width: 100%;    
+  width: max-content;   
+  min-width: 100%;      
 }
+
 
 /* Sidebar / Tabs */
 .profile-sidebar {

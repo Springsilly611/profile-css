@@ -28,23 +28,6 @@ body {
   margin: 0 !important;
 }
 
-/* Grundstruktur */
-.profile-wrapper {
-  width: 450px;
-  max-width: 450px;
-  height: 100%;
-  overflow-x: auto;            
-  overflow-y: auto;            
-  background: var(--color-bg);
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  display: block;               
-  position: relative;
-  flex-shrink: 0;
-  box-sizing: border-box;
-  white-space: normal;          
-}
-
 .scroll-protector {
   width: max-content;   
   min-width: 100%;      
@@ -230,3 +213,19 @@ fact {
   text-align: justify;
 }
 
+/* Grundstruktur */
+.profile-wrapper {
+  width: 450px;
+  max-width: 450px;
+  height: 100%;
+  overflow-x: auto;            
+  overflow-y: auto;            
+  background: var(--color-bg);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  display: block;               
+  position: relative;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  white-space: normal;          
+}

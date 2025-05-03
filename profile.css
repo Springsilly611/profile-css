@@ -232,14 +232,3 @@ fact {
   box-sizing: border-box;
 }
 
-.scroll-lock {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  overflow-x: auto;
-  overflow-y: visible;
-  box-sizing: border-box;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  word-break: break-word;
-}

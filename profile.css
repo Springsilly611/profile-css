@@ -223,15 +223,23 @@ fact {
 .profile-wrapper {
   width: 450px;
   max-width: 450px;
-  height: 100%;
-  overflow-x: auto;            
-  overflow-y: auto;            
+  overflow: auto;
   background: var(--color-bg);
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  display: block;               
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: block;
   position: relative;
-  flex-shrink: 0;
   box-sizing: border-box;
-  white-space: normal;          
+}
+
+.scroll-lock {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: visible;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }

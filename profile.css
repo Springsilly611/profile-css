@@ -133,10 +133,16 @@ input[type="radio"] {
 
 /* Innerer Inhaltsbereich */
 .profile-inner {
-  padding: 30px;
-  height: 350px;
-  overflow: auto;
+  width: 100%;
   box-sizing: border-box;
+  overflow-x: auto;
+  overflow-y: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+white-space: normal !important;
+display: block !important;
+min-width: auto !important;
 }
 
 /* Fließtext */

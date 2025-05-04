@@ -220,8 +220,8 @@ fact {
 
 /* Grundstruktur */
 .profile-wrapper {
-  width: 450px;
-  max-width: 450px;
+  width: 640px;
+  max-width: 640px;
   overflow: auto;
   background: var(--color-bg);
   border-radius: 8px;

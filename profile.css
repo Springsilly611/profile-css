@@ -128,7 +128,7 @@ input[type="radio"] {
 
 /* Innerer Inhaltsbereich */
 .profile-inner {  
-    height: 350px;  
+  height: 350px;  
   width: 420px;
   padding: 30px;
   overflow: auto;

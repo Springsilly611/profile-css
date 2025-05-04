@@ -102,7 +102,7 @@ input[type="radio"] {
 }
 
 .profile-header img {
-  width: 100%;
+  width: 420px;
   height: 250px;
   object-fit: cover;
   display: block;
@@ -128,7 +128,7 @@ input[type="radio"] {
 
 /* Innerer Inhaltsbereich */
 .profile-inner {
-  width: 100%;
+  width: 420px;
   box-sizing: border-box;
   overflow-x: auto;
   overflow-y: auto;

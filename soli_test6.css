@@ -1,0 +1,68 @@
+/* ================================
+   GRUNDSTYLING
+================================ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-text-flow: #181818;
+  --color-quote: #d1cfcf; 
+  --color-bg: #58595c;
+
+  --color-button: #d7d7d7;
+  --color-button-active: #f1f1f1;
+
+  --font-title: 'Cinzel Decorative', serif;
+  --color-title: #000000;
+  --color-title-line: #000000;
+  --color-title-bg: #626366;
+
+  --color-fact-text: #595a5d;
+  --color-fact-bg: #a3a3a3;
+}
+
+/* ================================
+   PROFIL-GRUNDLAYOUT
+================================ */
+.profile-wrapper {
+  width: 500px;
+  margin: 0 auto;
+  background: var(--color-bg);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.profile-content {
+  background-color: var(--color-bg);
+}
+
+.profile-header img {
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* ================================
+   BUTTONS
+================================ */
+.profile-sidebar {
+  position: absolute;
+  top: 242px;
+  left: 18px;
+  display: flex;
+  gap: 10px;
+}
+
+.profile-sidebar button {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--color-button);
+  border: none;
+  cursor: pointer;
+  text-indent: -9999px;
+  transition: background 0.2

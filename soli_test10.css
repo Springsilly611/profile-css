@@ -1,0 +1,209 @@
+/* ================================
+   GRUNDSTYLING
+================================ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-text-flow: #181818;
+  --color-quote: #d1cfcf;
+  --color-bg: #58595c;
+
+  --color-button: #d7d7d7;
+  --color-button-active: #f1f1f1;
+
+  --font-title: 'Cinzel Decorative', serif;
+  --color-title: #000000;
+  --color-title-line: #000000;
+  --color-title-bg: #626366;
+
+  --color-fact-text: #595a5d;
+  --color-fact-bg: #a3a3a3;
+}
+
+/* ================================
+   PROFIL-GRUNDLAYOUT
+================================ */
+.profile-wrapper {
+  width: 500px;
+  margin: 0 auto;
+  background: var(--color-bg);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  position: relative;
+}
+
+.profile-content {
+  flex: 1;
+  background-color: var(--color-bg);
+  position: relative;
+  z-index: 1;
+  min-width: 0;
+}
+
+.profile-header img {
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.profile-header {
+  position: relative;
+  z-index: 1;
+}
+
+.profile-sidebar {
+  z-index: 10;
+}
+
+
+/* ================================
+   BUTTONS
+================================ */
+.profile-sidebar {
+  position: absolute;
+  top: 242px;
+  left: 18px;
+  display: flex;
+  gap: 10px;
+  z-index: 5;
+}
+
+.profile-sidebar button {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--color-button);
+  border: none;
+  cursor: pointer;
+  text-indent: -9999px;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.profile-sidebar button:hover {
+  background: var(--color-button-active);
+  filter: brightness(1.1);
+  transform: scale(1.1);
+}
+
+.profile-sidebar button.active {
+  background: var(--color-button-active);
+  box-shadow: 0 0 4px rgba(255,255,255,0.6);
+}
+
+/* ================================
+   SCROLLBEREICH & TABS
+================================ */
+.profile-inner {
+  width: 500px;
+  height: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 15px 50px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-button) transparent;
+}
+
+.profile-inner::-webkit-scrollbar {
+  width: 6px;
+}
+
+.profile-inner::-webkit-scrollbar-thumb {
+  background-color: var(--color-button);
+  border-radius: 10px;
+  border: 1px solid var(--color-bg);
+}
+
+.profile-tab-content {
+  display: none;
+}
+
+/* ================================
+   TEXT & TYPOGRAFIE
+================================ */
+.profile-text {
+  font-size: 12px;
+  color: var(--color-text-flow);
+  text-align: justify;
+  line-height: 1.6;
+  padding: 5px 0;
+}
+
+title {
+  display: inline-block;
+  font-family: var(--font-title);
+  font-size: 30px;
+  color: var(--color-title);
+  padding: 0 10px;
+  position: relative;
+margin: 6px 0 4px;
+}
+
+title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.35em;   
+  height: 0.55em; 
+  background: var(--color-title-bg);
+  border-radius: 4px;
+  z-index: -1;
+}
+
+title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.45em; 
+  width: 100%;
+  height: 1px;
+  background: var(--color-title-line);
+}
+
+fact {
+  display: inline-block;
+  font-size: 9px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background-color: var(--color-fact-bg);
+  color: var(--color-fact-text);
+  padding: 1px 4px;
+  border-radius: 8px;
+  margin: 2px 4px 2px 0;
+}
+
+/* ================================
+   TAG 1 LAYOUT
+================================ */
+.tag1-content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag1-avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.tag1-quote {
+  margin-top: 130px;
+  font-size: 9px;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-quote);
+  max-width: 200px;
+  margin-right: -30px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
